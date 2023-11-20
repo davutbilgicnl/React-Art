@@ -42,7 +42,7 @@ export default function AuthInputs() {
         <Input
           label="Password"
           type="password"
-          $invalid={passwordNotValid}
+          invalid={passwordNotValid}
           onChange={(event) =>
             handleInputChange("password", event.target.value)
           }
